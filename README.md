@@ -1,7 +1,7 @@
 # Quoridor in JAVA
 A Quoridor game written in JAVA language with advanced features
 
-This game was the final project of my Advanced Programming subject at university.
+This game was the final project of my "Advanced Programming" course at university.
 
 The features of this project include:
 - Multi-player and AI playing modes
