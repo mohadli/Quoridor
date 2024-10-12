@@ -9,3 +9,9 @@ The features of this project include:
 - Sounds for clicking on buttons, announcing the winner, and a music playlist that plays during the matches
 
 A folder contains UML and screenshots of the game.
+
+![Main Manu](https://raw.githubusercontent.com/mohadli/Quoridor/refs/heads/main/UML_and_Screenshots/Main.jpg)
+
+![Game Board](https://raw.githubusercontent.com/mohadli/Quoridor/refs/heads/main/UML_and_Screenshots/board.jpg)
+
+![Cup Form](https://raw.githubusercontent.com/mohadli/Quoridor/refs/heads/main/UML_and_Screenshots/cup.jpg)
