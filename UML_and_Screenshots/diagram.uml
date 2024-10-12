@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1004.986904761905" y="33.0">quoridor.Bead</node>
+    <node x="410.5" y="883.0">quoridor.Music</node>
+    <node x="1242.8540508576016" y="906.0">quoridor.save</node>
+    <node x="1463.8797619047618" y="379.0">quoridor.Board</node>
+    <node x="47.5" y="1759.0">quoridor.cup</node>
+    <node x="829.5583333333334" y="1166.0">quoridor.Game</node>
+    <node x="1307.964894480519" y="730.0">quoridor.Wall</node>
+    <node x="860.5810606060606" y="949.0">quoridor.RandomAI</node>
+    <node x="888.4474897104158" y="2143.0">quoridor.MainMenu</node>
+    <node x="883.1974897104158" y="1968.0">quoridor.FormPage</node>
+    <node x="506.8665508576015" y="1661.0">quoridor.GUICupPage</node>
+    <node x="725.5290508576015" y="2614.0">quoridor.Main</node>
+    <node x="265.5" y="1297.0">quoridor.MatchWinnerPage</node>
+    <node x="1522.8397358323489" y="1737.0">quoridor.BreadthFirstSearch</node>
+    <node x="529.2849897104159" y="1297.0">quoridor.CupWinnerPage</node>
+    <node x="625.5" y="369.0">quoridor.Player</node>
+    <node x="104.5" y="1275.0">quoridor.vs</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="quoridor.Wall" target="quoridor.Player">
+      <point x="-111.42857142857144" y="-51.5" />
+      <point x="1326.5363230519476" y="600.0" />
+      <point x="755.7291666666667" y="600.0" />
+      <point x="63.72916666666674" y="105.5" />
+    </edge>
+    <edge source="quoridor.RandomAI" target="quoridor.Game">
+      <point x="34.0" y="30.5" />
+      <point x="962.5810606060606" y="1096.0" />
+      <point x="940.0583333333334" y="1096.0" />
+      <point x="0.0" y="-182.5" />
+    </edge>
+    <edge source="quoridor.MatchWinnerPage" target="quoridor.Player">
+      <point x="0.0" y="-51.5" />
+      <point x="364.5" y="1146.0" />
+      <point x="362.85997392758685" y="1146.0" />
+      <point x="362.85997392758685" y="690.0" />
+      <point x="678.1458333333334" y="690.0" />
+      <point x="-13.854166666666629" y="105.5" />
+    </edge>
+    <edge source="quoridor.save" target="quoridor.Wall">
+      <point x="45.66666666666666" y="-73.5" />
+      <point x="1357.020717524268" y="858.0" />
+      <point x="1351.2982278138525" y="858.0" />
+      <point x="-86.66666666666669" y="51.5" />
+    </edge>
+    <edge source="quoridor.Main" target="quoridor.Player">
+      <point x="-72.57142857142856" y="-41.5" />
+      <point x="779.957622286173" y="2584.0" />
+      <point x="37.0" y="2584.0" />
+      <point x="37.0" y="610.0" />
+      <point x="633.8125" y="610.0" />
+      <point x="-58.1875" y="105.5" />
+    </edge>
+    <edge source="quoridor.Game" target="quoridor.Wall">
+      <point x="60.27272727272725" y="-182.5" />
+      <point x="1000.3310606060606" y="1126.0" />
+      <point x="1475.7982278138525" y="1126.0" />
+      <point x="1475.7982278138525" y="858.0" />
+      <point x="1437.964894480519" y="858.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="quoridor.Game" target="quoridor.save">
+      <point x="20.090909090909122" y="-182.5" />
+      <point x="960.1492424242425" y="1106.0" />
+      <point x="1265.6873841909348" y="1106.0" />
+      <point x="-45.666666666666664" y="73.5" />
+    </edge>
+    <edge source="quoridor.save" target="quoridor.Bead">
+      <point x="-45.66666666666663" y="-73.5" />
+      <point x="1265.687384190935" y="858.0" />
+      <point x="1271.8540508576016" y="858.0" />
+      <point x="1271.8540508576016" y="339.0" />
+      <point x="1360.8202380952382" y="339.0" />
+      <point x="-50.166666666666686" y="149.5" />
+    </edge>
+    <edge source="quoridor.RandomAI" target="quoridor.Player">
+      <point x="0.0" y="-30.5" />
+      <point x="928.5810606060606" y="630.0" />
+      <point x="739.1041666666667" y="630.0" />
+      <point x="47.10416666666674" y="105.5" />
+    </edge>
+    <edge source="quoridor.FormPage" target="quoridor.Player">
+      <point x="70.0" y="-62.5" />
+      <point x="1093.1974897104158" y="1938.0" />
+      <point x="1221.3540508576016" y="1938.0" />
+      <point x="1221.3540508576016" y="620.0" />
+      <point x="744.6458333333335" y="620.0" />
+      <point x="52.645833333333485" y="105.5" />
+    </edge>
+    <edge source="quoridor.Main" target="quoridor.cup">
+      <point x="-36.28571428571422" y="-41.5" />
+      <point x="816.2433365718873" y="2574.0" />
+      <point x="107.5" y="2574.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="quoridor.GUICupPage" target="quoridor.Music">
+      <point x="-35.0" y="-128.5" />
+      <point x="611.8665508576015" y="1551.0" />
+      <point x="504.6183230437491" y="1551.0" />
+      <point x="504.6183230437491" y="1146.0" />
+      <point x="496.75" y="1146.0" />
+      <point x="17.25" y="96.5" />
+    </edge>
+    <edge source="quoridor.CupWinnerPage" target="quoridor.Player">
+      <point x="59.33333333333326" y="-51.5" />
+      <point x="677.6183230437491" y="1146.0" />
+      <point x="659.5058072609203" y="1146.0" />
+      <point x="659.5058072609203" y="710.0" />
+      <point x="689.2291666666667" y="710.0" />
+      <point x="-2.7708333333332575" y="105.5" />
+    </edge>
+    <edge source="quoridor.MainMenu" target="quoridor.Music">
+      <point x="-105.0" y="-205.5" />
+      <point x="923.4474897104158" y="2118.0" />
+      <point x="474.0" y="2118.0" />
+      <point x="474.0" y="1146.0" />
+      <point x="462.25" y="1146.0" />
+      <point x="-17.25" y="96.5" />
+    </edge>
+    <edge source="quoridor.Game" target="quoridor.Board">
+      <point x="100.4545454545455" y="-182.5" />
+      <point x="1040.512878787879" y="1146.0" />
+      <point x="1640.6540508576015" y="1146.0" />
+      <point x="1640.6540508576015" y="710.0" />
+      <point x="1631.1797619047618" y="710.0" />
+      <point x="47.799999999999955" y="95.5" />
+    </edge>
+    <edge source="quoridor.Player" target="quoridor.Bead">
+      <point x="33.25" y="-105.5" />
+      <point x="725.25" y="329.0" />
+      <point x="1346.486904761905" y="329.0" />
+      <point x="-64.5" y="149.5" />
+    </edge>
+    <edge source="quoridor.BreadthFirstSearch" target="quoridor.Bead">
+      <point x="96.66666666666663" y="-52.5" />
+      <point x="1735.3797619047618" y="319.0" />
+      <point x="1489.8202380952382" y="319.0" />
+      <point x="78.83333333333337" y="149.5" />
+    </edge>
+    <edge source="quoridor.GUICupPage" target="quoridor.Game">
+      <point x="128.33333333333326" y="-128.5" />
+      <point x="775.1998841909348" y="1631.0" />
+      <point x="906.9083333333334" y="1631.0" />
+      <point x="-33.14999999999998" y="182.5" />
+    </edge>
+    <edge source="quoridor.FormPage" target="quoridor.GUICupPage">
+      <point x="-70.0" y="-62.5" />
+      <point x="953.1974897104158" y="1938.0" />
+      <point x="716.8665508576015" y="1938.0" />
+      <point x="70.0" y="128.5" />
+    </edge>
+    <edge source="quoridor.Wall" target="quoridor.Bead">
+      <point x="-37.14285714285711" y="-51.5" />
+      <point x="1400.822037337662" y="349.0" />
+      <point x="1403.8202380952382" y="349.0" />
+      <point x="-7.166666666666629" y="149.5" />
+    </edge>
+    <edge source="quoridor.CupWinnerPage" target="quoridor.Music">
+      <point x="-59.33333333333326" y="-51.5" />
+      <point x="558.9516563770826" y="1146.0" />
+      <point x="531.25" y="1146.0" />
+      <point x="51.75" y="96.5" />
+    </edge>
+    <edge source="quoridor.MatchWinnerPage" target="quoridor.Music">
+      <point x="66.0" y="-51.5" />
+      <point x="430.5" y="1146.0" />
+      <point x="427.75" y="1146.0" />
+      <point x="-51.75" y="96.5" />
+    </edge>
+    <edge source="quoridor.MainMenu" target="quoridor.Game">
+      <point x="105.0" y="-205.5" />
+      <point x="1133.4474897104158" y="2118.0" />
+      <point x="1183.0290508576015" y="2118.0" />
+      <point x="1183.0290508576015" y="1621.0" />
+      <point x="995.3083333333334" y="1621.0" />
+      <point x="55.25" y="182.5" />
+    </edge>
+    <edge source="quoridor.cup" target="quoridor.vs">
+      <point x="22.5" y="-30.5" />
+      <point x="130.0" y="1641.0" />
+      <point x="139.75" y="1641.0" />
+      <point x="-35.25" y="73.5" />
+    </edge>
+    <edge source="quoridor.cup" target="quoridor.Player">
+      <point x="-52.5" y="-30.5" />
+      <point x="55.0" y="1641.0" />
+      <point x="48.86074359668123" y="1641.0" />
+      <point x="48.86074359668123" y="620.0" />
+      <point x="639.3541666666666" y="620.0" />
+      <point x="-52.64583333333337" y="105.5" />
+    </edge>
+    <edge source="quoridor.Game" target="quoridor.RandomAI">
+      <point x="-20.090909090909122" y="-182.5" />
+      <point x="919.9674242424243" y="1106.0" />
+      <point x="894.5810606060606" y="1106.0" />
+      <point x="-34.0" y="30.5" />
+    </edge>
+    <edge source="quoridor.save" target="quoridor.Game">
+      <point x="0.0" y="73.5" />
+      <point x="1311.3540508576016" y="1116.0" />
+      <point x="980.2401515151516" y="1116.0" />
+      <point x="40.181818181818244" y="-182.5" />
+    </edge>
+    <edge source="quoridor.Wall" target="quoridor.BreadthFirstSearch">
+      <point x="86.66666666666663" y="51.5" />
+      <point x="1524.6315611471857" y="858.0" />
+      <point x="1500.6873841909348" y="858.0" />
+      <point x="1500.6873841909348" y="1591.0" />
+      <point x="1580.8397358323489" y="1591.0" />
+      <point x="-58.0" y="-52.5" />
+    </edge>
+    <edge source="quoridor.MainMenu" target="quoridor.FormPage">
+      <point x="35.0" y="-205.5" />
+      <point x="1063.4474897104158" y="2118.0" />
+      <point x="1093.1974897104158" y="2118.0" />
+      <point x="70.0" y="62.5" />
+    </edge>
+    <edge source="quoridor.BreadthFirstSearch" target="quoridor.Game">
+      <point x="-96.66666666666666" y="-52.5" />
+      <point x="1542.1730691656821" y="1601.0" />
+      <point x="1039.5083333333332" y="1601.0" />
+      <point x="99.44999999999993" y="182.5" />
+    </edge>
+    <edge source="quoridor.GUICupPage" target="quoridor.CupWinnerPage">
+      <point x="-11.666666666666515" y="-128.5" />
+      <point x="635.199884190935" y="1591.0" />
+      <point x="618.2849897104159" y="1591.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="quoridor.Wall" target="quoridor.Board">
+      <point x="74.28571428571433" y="-51.5" />
+      <point x="1512.2506087662334" y="710.0" />
+      <point x="1487.779761904762" y="710.0" />
+      <point x="-95.60000000000002" y="95.5" />
+    </edge>
+    <edge source="quoridor.cup" target="quoridor.Game">
+      <point x="37.5" y="-30.5" />
+      <point x="145.0" y="1601.0" />
+      <point x="840.6083333333333" y="1601.0" />
+      <point x="-99.44999999999999" y="182.5" />
+    </edge>
+    <edge source="quoridor.Board" target="quoridor.Bead">
+      <point x="0.0" y="-95.5" />
+      <point x="1583.3797619047618" y="349.0" />
+      <point x="1446.8202380952382" y="349.0" />
+      <point x="35.83333333333337" y="149.5" />
+    </edge>
+    <edge source="quoridor.Game" target="quoridor.Player">
+      <point x="-60.27272727272725" y="-182.5" />
+      <point x="879.7856060606061" y="1126.0" />
+      <point x="839.0810606060606" y="1126.0" />
+      <point x="839.0810606060606" y="650.0" />
+      <point x="728.0208333333334" y="650.0" />
+      <point x="36.02083333333337" y="105.5" />
+    </edge>
+    <edge source="quoridor.vs" target="quoridor.Player">
+      <point x="35.25" y="-73.5" />
+      <point x="210.25" y="1146.0" />
+      <point x="178.94988419093488" y="1146.0" />
+      <point x="178.94988419093488" y="670.0" />
+      <point x="667.0625" y="670.0" />
+      <point x="-24.9375" y="105.5" />
+    </edge>
+    <edge source="quoridor.Board" target="quoridor.Wall">
+      <point x="-47.799999999999955" y="95.5" />
+      <point x="1535.5797619047619" y="710.0" />
+      <point x="1549.3934659090905" y="710.0" />
+      <point x="111.42857142857144" y="-51.5" />
+    </edge>
+    <edge source="quoridor.FormPage" target="quoridor.Game">
+      <point x="23.33333333333337" y="-62.5" />
+      <point x="1046.5308230437493" y="1948.0" />
+      <point x="1028.697489710416" y="1948.0" />
+      <point x="1028.697489710416" y="1631.0" />
+      <point x="973.2083333333334" y="1631.0" />
+      <point x="33.14999999999998" y="182.5" />
+    </edge>
+    <edge source="quoridor.BreadthFirstSearch" target="quoridor.Board">
+      <point x="-19.33333333333337" y="-52.5" />
+      <point x="1619.5064024990156" y="1641.0" />
+      <point x="1651.6540508576015" y="1641.0" />
+      <point x="1651.6540508576015" y="710.0" />
+      <point x="1678.9797619047617" y="710.0" />
+      <point x="95.60000000000002" y="95.5" />
+    </edge>
+    <edge source="quoridor.Main" target="quoridor.Game">
+      <point x="72.57142857142856" y="-41.5" />
+      <point x="925.1004794290301" y="2584.0" />
+      <point x="1201.9474897104158" y="2584.0" />
+      <point x="1201.9474897104158" y="1611.0" />
+      <point x="1017.4083333333333" y="1611.0" />
+      <point x="77.34999999999991" y="182.5" />
+    </edge>
+    <edge source="quoridor.Main" target="quoridor.save">
+      <point x="108.85714285714289" y="-41.5" />
+      <point x="961.3861937147444" y="2594.0" />
+      <point x="1357.0207175242683" y="2594.0" />
+      <point x="45.66666666666663" y="73.5" />
+    </edge>
+    <edge source="quoridor.Main" target="quoridor.MainMenu">
+      <point x="36.285714285714334" y="-41.5" />
+      <point x="888.8147651433159" y="2574.0" />
+      <point x="1028.4474897104158" y="2574.0" />
+      <point x="0.0" y="205.5" />
+    </edge>
+    <edge source="quoridor.GUICupPage" target="quoridor.vs">
+      <point x="-128.33333333333326" y="-128.5" />
+      <point x="518.5332175242683" y="1591.0" />
+      <point x="163.25" y="1591.0" />
+      <point x="-11.75" y="73.5" />
+    </edge>
+    <edge source="quoridor.GUICupPage" target="quoridor.Player">
+      <point x="11.666666666666742" y="-128.5" />
+      <point x="658.5332175242683" y="1561.0" />
+      <point x="717.7849897104159" y="1561.0" />
+      <point x="717.7849897104159" y="710.0" />
+      <point x="694.7708333333334" y="710.0" />
+      <point x="2.7708333333333712" y="105.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="807.5" y="391.0" />
+  <SelectedNodes>
+    <node>quoridor.Bead</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

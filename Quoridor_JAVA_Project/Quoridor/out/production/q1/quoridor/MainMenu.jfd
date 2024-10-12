@@ -1,0 +1,99 @@
+JFDML JFormDesigner: "7.0.7.1.1184" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"defaultCloseOperation": 3
+			"resizable": false
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"foreground": &Color0 new java.awt.Color( 255, 255, 255, 255 )
+				"background": &Color1 new java.awt.Color( 0, 0, 0, 255 )
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button1MouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button1MouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "buttonsMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "buttonsMouseReleased", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonsMouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 130
+				"y": 390
+				"width": 200
+				"height": 200
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"background": #Color1
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"foreground": #Color0
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button2MouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button2MouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "buttonsMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "buttonsMouseReleased", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonsMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 370
+				"y": 390
+				"width": 200
+				"height": 200
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"background": sfield java.awt.Color black
+				"opaque": false
+				"foreground": sfield java.awt.Color white
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button3MouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button3MouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "buttonsMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "buttonsMouseReleased", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button3ActionPerformed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonsMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 610
+				"y": 390
+				"width": 200
+				"height": 200
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"background": new java.awt.Color( 0, 0, 0, 255 )
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"foreground": #Color0
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button4MouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button4MouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "buttonsMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "buttonsMouseReleased", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonsMouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button4ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 850
+				"y": 390
+				"width": 200
+				"height": 200
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button5"
+				"text": "text"
+				"foreground": new java.awt.Color( 0, 0, 0, 255 )
+				"background": new java.awt.Color( 0, 0, 0, 255 )
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "helpMouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button5MouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button5MouseExited", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"y": 5
+				"width": 128
+				"height": 74
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1100, 655 )
+		} )
+	}
+}
